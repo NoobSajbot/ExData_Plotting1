@@ -12,7 +12,7 @@ nr_lines<-ind2[1]-ind1[1]; #number of rows to read from ind1
 
 
 #read table extracting only the elements of interest
-a=read.table("household_power_consumption.txt", skip=skip_until, nrows=nr_lines, sep=";")
+a<-read.table("household_power_consumption.txt", skip=skip_until, nrows=nr_lines, sep=";")
 
 
 #reassign names of columns to dataframe a
